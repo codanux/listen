@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "Listen",
+    name: "CodanuxListen",
     platforms: [.iOS(.v14)],
     products: [
         .library(
-            name: "Listen",
+            name: "CodanuxListen",
             targets: ["ListenPlugin"])
     ],
     dependencies: [
