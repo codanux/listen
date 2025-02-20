@@ -3,7 +3,7 @@ import { Listen } from 'listen';
 window.testEcho = () => {
     const inputValue = document.getElementById("echoInput").value;
 
-    Listen.setLanguage('tr-TR');
+    //Listen.setLanguage({ language: 'tr-TR' });
     Listen.requestPermission().then((data) => {
         if (data.status === 'granted') {
             Listen.startListening();
